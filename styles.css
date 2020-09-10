@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+	body {
+		display: grid;
+		grid-template-columns: 2;
+		grid-template-rows: 3;
+		font-family: "Karla", sans-serif;
+		margin-left: 5vw;
+		margin-right: 5vw;
+	}
+
+	header {
+		grid-area: 1 / 1 / 2 / 3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 6.25vw;
+		padding-right: 6.25vw;
+		height: 40vh;
+		background-color: #E6EFF6;
+		border-radius: 7px 7px 0px 0px;
+	}
+
+	header h1 {
+		color: #45AFAB;
+	}
+
+	header h2 {
+		color: #C1D461;
+	}
+
+	header p {
+		color: #2A2A29;
+	}
+
+	section {
+		color: white;
+	}
+
+	#subscription {
+		grid-area: 2 / 1 / 3 / 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #2BB3B1;
+		height: 40vh;
+		border-radius: 0px 0px 0px 7px;
+		padding-left: 6.25vw;
+		padding-right: 6.25vw;
+	}
+
+	strong {
+		font-size: 2.2em;
+	}
+
+	em {
+		opacity: 0.6;
+	}
+
+	#signup {
+		background-color: #BFDF32;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: "Klara", sans-serif;
+		height: 15%;
+		border-radius: 7px;
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		transition-property: background-color color opacity;
+		transition-duration: 0.7s;
+	}
+
+	#signup:hover {
+		background-color: #4ABEBD;
+		color: #BFDF32;
+		opacity: 0.8;
+	}
+
+	#why {
+		grid-area: 2 / 2 / 3 / 3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #4ABEBD;
+		height: 40vh;
+		border-radius: 0px 0px 7px 0px;
+		padding-left: 6.25vw;
+		padding-right: 6.25vw;
+	}
+
+	li {
+		list-style-type: none;
+		padding-top: 6px;
+	}
+
+	footer {
+		grid-area: 3 / 1 / 4 / 3;
+		height: 4vh;
+		text-align: center;
+	}
+
+	footer a {
+		text-decoration: none;
+		color: #959593;
+	}
+
+	footer a:hover {
+		color: #2BB3B1;
+	}
