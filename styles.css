@@ -115,6 +115,7 @@
 /*Rule for mobile devices*/
 
 @media screen and (max-width: 768px) {
+
 	body {
 		display: grid;
 		grid-template-columns: 1;
@@ -183,14 +184,6 @@
 		text-decoration: none;
 		font-weight: bold;
 		color: white;
-		transition-property: background-color color opacity;
-		transition-duration: 0.7s;
-	}
-
-	#signup:hover {
-		background-color: #4ABEBD;
-		color: #BFDF32;
-		opacity: 0.8;
 	}
 
 	#why {
@@ -224,3 +217,4 @@
 	footer a:hover {
 		color: #2BB3B1;
 	}
+}
